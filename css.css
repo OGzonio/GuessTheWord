@@ -1,0 +1,37 @@
+#content{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+    padding: 10px;
+    box-sizing: border-box;    
+}
+
+.square {
+    border: 2px solid rgb(58, 58, 60);
+    width: 60px;
+    height: 60px;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+    text-transform: uppercase;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #board-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    overflow: hidden;
+  }
+
+.good{
+    background-color: green;
+}
+.banner{
+  text-align: center;
+}
